@@ -2,15 +2,17 @@
 require "vendor/packages/google/Gmail.php";
 use Vendor\Packages\Google\Gmail;
  
-// Gmail::mailer()
-//     ->setUser('ppick177@gmail.com','leolftclggsxaxyn')
-//     ->subject("Text Gmail Libaray")
-//     ->line("<input type='text' placeholder='enter info'>")
-//     ->action("/home",'action')
-//     ->from("ppick177@gmail.com",'mohamed')
-//     ->line("Welcome Third Line")
-//     ->addAttachEx("welcome mohamed hesham",'file.db')
-//     ->addAttachEx("welcome mohamed hesham",'name.db')
-//     ->notify();
-
-
+ 
+Gmail::mailer()
+->setUser('example@gmail.com','password')
+->subject("Text Gmail Libaray")
+->line("")
+->action("/home",'action')
+->from("example@gmail.com",'username')
+->line("Welcome Third Line",[ "background:red", "color:white", ])
+->addAttachEx("php gmail mailer",'file.db')
+->addImage("path")
+->addAddress("email","username")
+->addCC("email","username")
+->addReply("email","username")
+->notify();
