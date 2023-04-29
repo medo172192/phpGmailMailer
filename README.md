@@ -1,38 +1,73 @@
+
 # Php Gmail Mailer
-# you can Send Notification using PHP GMAIL MAIL LIBRARY
-
-#___________________________________________________________________________________________ #___________________________________________________________________________________________
-# Setup
-#___________________________________________________________________________________________ #___________________________________________________________________________________________
-<br /><br /><br />
 
 
+## Gmail Notification
+
+ - You Can Send Notifications to Gmail 
+ - Depening On Php Mailer Library
+ 
+
+## Installation
+
+Install Project With Php
+
+```bash
+  
+download https://github.com/medo172192/phpGmailMailer.git
+ 
+require "vendor/packages/google/Gmail.php";
+use Vendor\Packages\Google\Gmail;
+```
+    
+## Roadmap
+
+- download .git files
+
+- create php index file
+
+- add installation require Path
+
+- Write Gmail Mailer Syntax
 
 
-require "vendor/packages/google/Gmail.php";<br />
+## Usage/Examples
+
+```javascript
+require "vendor/packages/google/Gmail.php";
 use Vendor\Packages\Google\Gmail;
 
-
-
-<br /><br /><br />
-
-#___________________________________________________________________________________________ #___________________________________________________________________________________________
-#                                 For Example
-#___________________________________________________________________________________________ #___________________________________________________________________________________________
-<br /><br /><br />
-
 Gmail::mailer()
-<br />->setUser('example@gmail.com','password')
-<br />->subject("Text Gmail Libaray")
-<br />->line("")
-<br />->action("/home",'action')
-<br />->from("example@gmail.com",'username')
-<br />->line("Welcome Third Line",[ "background:red", "color:white", ])
-<br />->addAttachEx("php gmail mailer",'file.db')
-<br />->addImage("path")
-<br />->addAddress("email","username")
-<br />->addCC("email","username")
-<br />->addReply("email","username")
-<br />->notify();
+->setUser('example@gmail.com','password')
+->subject("Text Gmail Libaray")
+->line("")
+->action("/home",'action')
+->from("example@gmail.com",'username')
+->line("Welcome Third Line",[ "background:red", "color:white", ])
+->addAttachEx("php gmail mailer",'file.db')
+->addImage("path")
+->addAddress("email","username")
+->addCC("email","username")
+->addReply("email","username")
+->notify();
 
-<br /><br /><br />
+
+
+
+```
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  cd directory 
+  php -S localhost:9000
+```
+
+
+## Support
+
+- For support, email ppick177@gmail.com 
+
