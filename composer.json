@@ -1,7 +1,7 @@
 {
     "repositories":[
         {
-            "type": "vcs",
+            "type": "git",
             "url": "github.com/medo172192/php_gmail_mailer.git"
         }
     ],
