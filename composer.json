@@ -1,4 +1,10 @@
 {
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "github.com/medo172192/php_gmail_mailer.git"
+        }
+    ],
     "require": {
         "phpmailer/phpmailer": "^6.8",
         "league/oauth2-google": "^4.0"
