@@ -31,7 +31,7 @@ use Vendor\Packages\Google\Gmail;
 - Write Gmail Mailer Syntax
 
 
-## Usage/Examples
+## Usage/Example
 
 ```javascript
 require "vendor/packages/google/Gmail.php";
