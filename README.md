@@ -60,30 +60,30 @@ Gmail::mailer()
 
 
 
-## Functions
+## About/Functions
 
 ```javascript
- 
- mailer() 
- SetUser()
- addAddress()
- from()
- addReply()
- addCC()
- subject()
- addAttachEx()
- body()
- line()
- action()
- addImage()
- clearAddress()
- stmpClose()
- attach()
- html()
- htmlFileContent()
- notify()
- send()
- 
+
+           mailer() 
+           SetUser()
+           addAddress()
+           from()
+           addReply()
+           addCC()
+           subject()
+           addAttachEx()
+           body()
+           line()
+           action()
+           addImage()
+           clearAddress()
+           stmpClose()
+           attach()
+           html()
+           htmlFileContent()
+           notify()
+           send()
+
 
 
 
