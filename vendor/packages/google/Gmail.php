@@ -68,7 +68,7 @@ class Gmail{
             self::$_main->SetFrom(self::$TargetEmail, "PHP GMAIL");
             self::$_main->AddReplyTo(self::$TargetEmail, "PHP GMAIL");
             self::$_main->AddCC(self::$TargetEmail, "PHP GMAIL");
-        }elseif(!function_exists('addUser')){
+        }elseif(!function_exists('addAddress')){
             self::$_main->AddAddress(self::$TargetEmail, "PHP GMAIL");
         }elseif(!function_exists('addReply')){
             self::$_main->AddReplyTo(self::$TargetEmail, "PHP GMAIL");
@@ -91,7 +91,7 @@ class Gmail{
      * ____________________________________________________
      */
 
-    public static function addUser(string $email , string $name)
+    public static function addAddress(string $email , string $name)
     {
         self::$_main->AddAddress($email, $name);
         return self::$_instance;
@@ -389,7 +389,7 @@ class Gmail{
     {
         if(!self::$_main->Send()) {
             echo "Error while sending Email.";
-            var_dump(self::$_main);
+            var_dump(self::$_main); 
           } else {
             if ($message == true){
                 echo "Email sent successfully";
