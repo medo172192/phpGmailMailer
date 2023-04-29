@@ -22,17 +22,17 @@ use Vendor\Packages\Google\Gmail;
 <br /><br /><br />
 
 Gmail::mailer()
-->setUser('example@gmail.com','password')
-->subject("Text Gmail Libaray")
-->line("")
-->action("/home",'action')
-->from("example@gmail.com",'username')
-->line("Welcome Third Line",[ "background:red", "color:white", ])
-->addAttachEx("php gmail mailer",'file.db')
-->addImage("path")
-->addAddress("email","username")
-->addCC("email","username")
-->addReply("email","username")
-->notify();
+<br />->setUser('example@gmail.com','password')
+<br />->subject("Text Gmail Libaray")
+<br />->line("")
+<br />->action("/home",'action')
+<br />->from("example@gmail.com",'username')
+<br />->line("Welcome Third Line",[ "background:red", "color:white", ])
+<br />->addAttachEx("php gmail mailer",'file.db')
+<br />->addImage("path")
+<br />->addAddress("email","username")
+<br />->addCC("email","username")
+<br />->addReply("email","username")
+<br />->notify();
 
 <br /><br /><br />
