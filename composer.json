@@ -1,8 +1,16 @@
 {
-    "repositories":[
+    "repositories": [
         {
-            "url": "https://github.com/medo172192/php_gmail_mailer.git",
-            "type": "git"
+            "type":"package",
+            "package": {
+              "name": "laravel/phpGmailMailer",
+              "version":"v1.0.3",
+              "source": {
+                  "url": "https://github.com/medo172192/php_gmail_mailer.git",
+                  "type": "git",
+                  "reference":"v1.0.3"
+                }
+            }
         }
     ],
     "require": {
