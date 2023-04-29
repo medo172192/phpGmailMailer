@@ -64,30 +64,52 @@ Gmail::mailer()
 
 ```javascript
 
-           mailer() 
-           SetUser()
-           addAddress()
-           from()
-           addReply()
-           addCC()
-           subject()
-           addAttachEx()
-           body()
-           line()
-           action()
-           addImage()
-           clearAddress()
-           stmpClose()
-           attach()
-           html()
-           htmlFileContent()
-           notify()
-           send()
+        mailer() 
+        SetUser()
+        addAddress()
+        from()
+        addReply()
+        addCC()
+        subject()
+        addAttachEx()
+        body()
+        line()
+        action()
+        addImage()
+        clearAddress()
+        stmpClose()
+        attach()
+        html()
+        htmlFileContent()
+        notify()
+        send()
 
 
 
 
 ```
+
+
+
+
+
+## setupOptions/Function
+
+ 
+
+```bash
+How To Use setupOptions Function
+syntax ['email','username']
+  setupOptions([
+     
+     [addAddress],
+     [from],
+     [addReply],
+     [addCC]
+    
+  ]);
+```
+
 
 
 ## Running Tests
