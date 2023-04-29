@@ -59,6 +59,37 @@ Gmail::mailer()
 ```
 
 
+
+## Functions
+
+```javascript
+ 
+ mailer() 
+ SetUser()
+ addAddress()
+ from()
+ addReply()
+ addCC()
+ subject()
+ addAttachEx()
+ body()
+ line()
+ action()
+ addImage()
+ clearAddress()
+ stmpClose()
+ attach()
+ html()
+ htmlFileContent()
+ notify()
+ send()
+ 
+
+
+
+```
+
+
 ## Running Tests
 
 To run tests, run the following command
